@@ -12,4 +12,4 @@ org.apache.nemo.client.JobLauncher \
   -executor_json `pwd`/nemo-resources.json \
   -optimization_policy org.apache.nemo.compiler.optimizer.policy.DefaultPolicy \
   -user_main edu.snu.bd.examples.Homework \
-  -user_args "--runner=org.apache.nemo.compiler.frontend.beam.NemoPipelineRunner --inputFile=`pwd`/input.txt --output=`pwd`/nemo_output/output"
+  -user_args "--runner=org.apache.nemo.compiler.frontend.beam.NemoPipelineRunner --inputFile=`pwd`/input1.csv --inputDirectory=`pwd`/ --output=`pwd`/nemo_output/output"
